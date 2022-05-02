@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@emotion/styled": "^11.8.1",
+    "@hookform/resolvers": "^2.8.8",
     "@mui/lab": "^5.0.0-alpha.78",
     "@mui/material": "^5.6.2",
     "axios": "^0.26.1",
+    "date-fns": "^2.28.0",
     "mdi-material-ui": "^7.2.0",
     "multer": "^1.4.4",
     "mysql2": "^2.3.3",
@@ -20,10 +22,13 @@
     "next-connect": "^0.12.2",
     "nprogress": "^0.2.0",
     "react": "17.0.2",
+    "react-datepicker": "^4.7.0",
     "react-dom": "17.0.2",
+    "react-hook-form": "^7.30.0",
     "react-perfect-scrollbar": "^1.5.8",
     "sequelize": "^6.19.0",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@emotion/react": "^11.9.0",
@@ -31,6 +36,7 @@
     "@types/node": "17.0.24",
     "@types/nprogress": "^0.2.0",
     "@types/react": "17.0.2",
+    "@types/react-datepicker": "^4.4.1",
     "@types/react-dom": "17.0.2",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
